@@ -29,7 +29,9 @@ The data files have been produced using `idl_calculate_erf_timeseries.pro`.
 
 ## Effective Radiaitve Forcing
 
-The global-annual-mean ERF timeseries is shown in `Figure_ERF.pdf`.  Created with `idl_plot_erf.pro`.
+![ERF timeseries](https://github.com/timothyandrews/HadGEM3-RFMIP-Tier2/blob/master/Figure_ERF.png)
+
+The global-annual-mean ERF timeseries is shown in `Figure_ERF.png` or `Figure_ERF.pdf`.  Created with `idl_plot_erf.pro`.
 
 ## Citation
 
