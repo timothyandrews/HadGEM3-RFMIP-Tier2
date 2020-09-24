@@ -1,6 +1,6 @@
 # HadGEM3-RFMIP-Tier2
 
-This repository contains the global-annual-mean historical + SSP2-4.5 (1850-2099) ERF timeseries simulated by HadGEM3-GC3.1-LL RFMIP (Pincus et al., 2016) Tier II simulations.
+This repository contains the global-annual-mean historical + SSP2-4.5 (1850-2099) ERF timeseries simulated by HadGEM3-GC3.1-LL RFMIP Tier II simulations.
 
 Tim Andrews
 
@@ -10,7 +10,7 @@ September 2020.
 
 ## Data description
 
-ERF is calculated as the difference in net TOA radiative flux between the RFMIP Tier II `piClim-histall`, `piClim-histghg`,`piClim-histaer`, `piClim-histnat` and `piClim-control` HadGEM3-GC3.1-LL experiments.  The global-annual-mean data runs from 1850-2099 inclusive.  Fluxes are positive downards. The data contains three ensemble members (r1i1p1f3, r2i1p1f3, r3i1p1f3) as well as the ensemble-mean. Unprocessed raw netCDF data can be accessed via the CMIP6/ESGF database (https://pcmdi.llnl.gov/CMIP6/).
+ERF is calculated as the difference in net TOA radiative flux between the HadGEM3-GC3.1-LL RFMIP Tier II `piClim-histall`, `piClim-histghg`,`piClim-histaer` and `piClim-histnat` perturbation experiments and the `piClim-control` experiment.  The global-annual-mean data runs from 1850-2099 inclusive.  Fluxes are positive downards. The data contains three ensemble members (r1i1p1f3, r2i1p1f3, r3i1p1f3) as well as the ensemble-mean. Unprocessed raw netCDF data can be accessed via the CMIP6/ESGF database (https://pcmdi.llnl.gov/CMIP6/). See Pincus et al. (2016) and https://rfmip.leeds.ac.uk/rfmip-erf/ for the RFMIP experimental design.
 
 ## Data files
 
