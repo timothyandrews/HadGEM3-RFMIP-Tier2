@@ -8,6 +8,12 @@ Met Office Hadley Centre.
 
 September 2020.
 
+## Effective Radiaitve Forcing
+
+![ERF timeseries](https://github.com/timothyandrews/HadGEM3-RFMIP-Tier2/blob/master/Figure_ERF.png)
+
+Global-annual-mean HadGEM3-GC3.1-LL Historical + SSP2-4.5 ERF timeseries: `Figure_ERF.png` or `Figure_ERF.pdf`.  Created with `idl_plot_erf.pro`.
+
 ## Data description
 
 ERF is calculated as the difference in net TOA radiative flux between the HadGEM3-GC3.1-LL RFMIP Tier II `piClim-histall`, `piClim-histghg`,`piClim-histaer` and `piClim-histnat` perturbation experiments and the `piClim-control` experiment.  The global-annual-mean data runs from 1850-2099 inclusive.  Fluxes are positive downards. The data contains three ensemble members (`r1i1p1f3`, `r2i1p1f3`, `r3i1p1f3`) as well as the ensemble-mean.
@@ -26,12 +32,6 @@ The data files have been produced using `idl_calculate_erf_timeseries.pro`.
 | `HadGEM3-GC31-LL_1850-2099_piClim-histghg_ERF.csv` | `piClim-histghg` global-annual-mean WMGHG ERF timeseries |
 | `HadGEM3-GC31-LL_1850-2099_piClim-histaer_ERF.csv` | `piClim-histaer` global-annual-mean aersosol ERF timeseries |
 | `HadGEM3-GC31-LL_1850-2099_piClim-histnat_ERF.csv` | `piClim-histnat` global-annual-mean natural ERF timeseries |
-
-## Effective Radiaitve Forcing
-
-![ERF timeseries](https://github.com/timothyandrews/HadGEM3-RFMIP-Tier2/blob/master/Figure_ERF.png)
-
-Global-annual-mean HadGEM3-GC3.1-LL Historical + SSP2-4.5 ERF timeseries: `Figure_ERF.png` or `Figure_ERF.pdf`.  Created with `idl_plot_erf.pro`.
 
 ## Citation
 
